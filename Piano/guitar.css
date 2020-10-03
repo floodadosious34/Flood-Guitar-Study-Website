@@ -1,0 +1,34 @@
+header {
+    color: green;
+    display: flex;
+    justify-content: left;
+    font-family: futura;
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    font-family: futura;
+}
+
+/* img {
+    max-width: 100%;
+    height: 40em;
+} */
+
+.tuning {
+    width: 100%; /* width of container */
+    height: 10em; /* height of container */
+    object-fit: cover;
+    
+    
+}
+
+.tuning img {
+    width: 100%; /* width of container */
+    height: 100%; /* height of container */
+    object-fit: cover;
+    object-position: 110% 80%; /* try 20% 10% */ 
+  
+   
+}
